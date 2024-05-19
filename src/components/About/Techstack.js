@@ -5,25 +5,18 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
   DiPython,
   DiGit,
   DiJava,
   DiCss3,
 } from "react-icons/di";
 import {
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
   SiBootstrap,
   SiC,
   SiExpress,
-  SiSencha,
-  SiVisualstudiocode,
   SiSpringboot,
   SiHtml5,
   SiJquery,
-  SiHackerearth,
 } from "react-icons/si";
 // import IconBootstrap from "react-devicon/bootstrap/plain-wordmark";
 

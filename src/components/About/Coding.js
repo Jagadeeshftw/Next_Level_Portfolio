@@ -4,7 +4,6 @@ import {
   SiCodechef,
   SiCodeforces,
   SiGeeksforgeeks,
-  SiHackerearth,
   SiHackerrank,
   SiLeetcode,
 } from "react-icons/si";
