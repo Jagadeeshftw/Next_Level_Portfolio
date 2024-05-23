@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import reverseSnake from "../../Assets/Projects/reverse_snake.png";
 import pathVisualization from "../../Assets/Projects/path-visual.png";
-
+import timeQuest from "../../Assets/Projects/time_quest.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -37,6 +37,16 @@ function Projects() {
               and try to escape from the snake that’s coming to eat you. Here Snake uses a path-finding algorithm to find the shortest path to the location
               of the food and follows it avoiding any obstacles in between, it also grows in length over time."
               link="https://jagadeeshftw.github.io/Reverse_snake/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={timeQuest}
+              isBlog={false}
+              title="Ultimate Time Quest"
+              description="Embark on The Ultimate Time Quest is an exciting and interactive web application designed to challenge your time management skills and precision. Dive into a series of captivating time-based challenges and race against the clock to achieve the highest score. Whether you're looking to test your quick reflexes or improve your punctuality, this app provides an engaging and fun way to master the art of timing."
+              link="https://timequest.netlify.app/#"
             />
           </Col>
         </Row>
