@@ -26,7 +26,17 @@ function App() {
   return (
     <Router>
       <Preloader load={load} />
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <div class="background-container">
+        <img
+          class="moon-img"
+          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png"
+          alt=""
+        />
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+        <div class="clouds"></div>
+      </div>
+      <div className="App content" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <ScrollToTop />
         <Routes>
