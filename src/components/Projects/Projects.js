@@ -1,14 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 import reverseSnake from "../../Assets/Projects/reverse_snake.png";
 import pathVisualization from "../../Assets/Projects/path-visual.png";
 import timeQuest from "../../Assets/Projects/time_quest.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
         What  <strong className="purple"> I've Been Up To </strong>
