@@ -15,35 +15,41 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple">C, C++, Java, Javascript and Python. </b>
-              </i>
+              I'm a passionate Block Chain & Full Stack Developer hailing from
+              Chennai, India. My journey in the realm of technology has been
+              fueled by my deep love for coding and problem-solving.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">Competitive Programming.</b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              With a strong foundation in
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Solidity, React, Node.js, and Blockchain technologies{" "}
                 </b>
               </i>
-              &nbsp; like
+              , I thrive in building scalable and efficient web applications.
+              <br />
+              <br />
+              My skills extend to
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple">
+                  {" "}
+                  managing databases, orchestrating containers, and implementing
+                  CI/CD pipelines{" "}
+                </b>
               </i>
+              to ensure seamless deployment and maintenance of applications.
+              <br />
+              <br />
+              I'm particularly passionate about creating
+              <i>
+                <b className="purple">
+                  {" "}
+                  decentralized applications (dApps) on Ethereum and other
+                  blockchain platforms
+                </b>
+              </i>
+              , exploring the endless possibilities of blockchain technology.
             </p>
           </Col>
         </Row>

@@ -4,16 +4,9 @@ html {
     rgba(17, 16, 16, 0.582),
     rgba(12, 8, 24, 0.904)
   );
-
-  --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
-  );
-
   --imp-text-color: #c0c0c0;
+  --imp-text-rgba-color: rgba(192, 192, 192, 0.3);
 }
-
 
 .purple {
   color: var(--imp-text-color) !important;
@@ -177,18 +170,18 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: black;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: var(--imp-text-color);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: var(--imp-text-color);
   border-radius: 12px;
 }
 
@@ -478,7 +471,7 @@ button:focus {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
+  background: var(--imp-text-rgba-color) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
@@ -491,7 +484,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: var(--imp-text-rgba-color);
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -499,13 +492,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px var(--imp-text-color);
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: var(--imp-text-color);
+  box-shadow: 0 0 5px var(--imp-text-color);
+  text-shadow: 0 0 2px var(--imp-text-color);
 }
 
 .social-icons {
@@ -515,7 +508,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color:var(--imp-text-color) !important;
 }
 
 /* --------- */
@@ -527,6 +520,14 @@ button:focus {
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
 }
+
+.footerHome {
+  background-color: rgb(10, 4, 22, 0.3);
+  bottom: 0 !important;
+  padding-top: 10px !important;
+  padding-bottom: 8px !important ;
+}
+
 .footer-copywright {
   text-align: center !important;
 }
@@ -558,7 +559,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: var(--imp-text-color) !important;
 }
 /* --------- */
 /* Projects */
@@ -579,7 +580,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px var(--imp-text-rgba-color) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -589,7 +590,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px var(--imp-text-rgba-color) !important;
 }
 
 .blog-card {
@@ -602,7 +603,7 @@ button:focus {
 
 .blog-card-view {
   background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
+  box-shadow: 0 3px 3px 2px var(--imp-text-rgba-color) !important;
   color: white !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -620,7 +621,7 @@ button:focus {
 .blog-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+  box-shadow: 0 3px 3px 5px var(--imp-text-rgba-color) !important;
 }
 
 .card-img-top {
@@ -637,14 +638,14 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: var(--imp-text-rgba-color) !important;
+  border-color: var(--imp-text-rgba-color) !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: var(--imp-text-color) !important;
+  border-color: var(--imp-text-color) !important;
 }
 .btn:focus {
   outline: none !important;
@@ -674,12 +675,14 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  /* border: 1.7px solid rgba(200, 137, 230, 0.637) !important; */
+  border: 1.7px solid var(--imp-text-color) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  /* box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important; */
+  box-shadow: 4px 5px 4px 3px var(--imp-text-rgba-color) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -693,7 +696,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid var(--imp-text-rgba-color) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
