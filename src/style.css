@@ -210,7 +210,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: var(--imp-text-color) !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -257,7 +257,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: var(--imp-text-rgba-color) !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -355,6 +355,7 @@ button:focus {
     transform: rotate(0deg);
   }
 }
+
 
 .home-header {
   padding-top: 80px !important;
