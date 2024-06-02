@@ -3,6 +3,11 @@ import GitHubCalendar from "react-github-calendar";
 import { Row, Col } from "react-bootstrap";
 
 function Github() {
+  const themeInput = {
+    light: ['#f0f0f0', '#c4edde', '#7ac7c4', '#f73859', '#384259'],
+    dark: ['white', '#A0A0A0', '#808080', '#606060', '#404040'],
+  };
+
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <Col md={12}>
@@ -14,7 +19,8 @@ function Github() {
             username="jagadeeshftw"
             blockSize={19}
             blockMargin={5}
-            color="#c0c0c0"
+            colorScheme={"dark"}
+            theme={themeInput}
             fontSize={16}
           />
         </div>
