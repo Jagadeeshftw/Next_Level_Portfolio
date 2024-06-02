@@ -10,7 +10,7 @@ Welcome to my portfolio project! This is a dynamic and responsive portfolio buil
 
 ## 📸 Preview
 
-![Portfolio Preview](path-to-your-preview-image.png)
+![Portfolio Preview](/public/preview.png)
 
 ## 🛠️ Technologies Used
 
@@ -28,18 +28,20 @@ Welcome to my portfolio project! This is a dynamic and responsive portfolio buil
   - GitHub Actions for CI/CD
 
 ## 📂 Project Structure
+```
 ├── public
 │ └── assets
 │ └── images
 ├── src
 │ ├── components
 │ ├── pages
-│ ├── App.js
-│ └── index.js
+│ ├── App.jsx
+│ └── index.jsx
 ├── .gitignore
 ├── package.json
 ├── README.md
 └── vite.config.js
+```
 
 
 ## 🚀 Getting Started
@@ -71,27 +73,30 @@ To build the project for production, run:
 ```sh
 npm run build
 ```
-🌐 Deployment
+### 🌐 Deployment
 This project is deployed using Netlify. You can view the live site .
 
-📈 Performance Optimizations
+### 📈 Performance Optimizations
 Code Splitting: Implemented dynamic imports.
 Optimized Assets: Compressed images and minified CSS/JS.
 
-🤝 Contributing
+### 🤝 Contributing
 Contributions are welcome! Please fork this repository and create a pull request with your changes.
-
+```
 Fork the Project
 Create your Feature Branch (git checkout -b feature/AmazingFeature)
 Commit your Changes (git commit -m 'Add some AmazingFeature')
 Push to the Branch (git push origin feature/AmazingFeature)
 Open a Pull Request
-📝 License
+```
+
+### 📝 License
 This project is licensed under the MIT License.
 
-📧 Contact
-Jagadeesh B - LinkedIn - Email
+### 📧 Contact
+Jagadeesh B - [LinkedIn](https://www.linkedin.com/in/jagadeesh-b-042b38208/) - [Email](mailto:jagadeesh26062002@gmail.com)
 
-Project Link: GitHub
+
+Project Link: [GitHub](https://github.com/Jagadeeshftw/Next_Level_Portfolio)
 
 Made with ❤️ by Jagadeesh B
