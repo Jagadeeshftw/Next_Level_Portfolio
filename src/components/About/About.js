@@ -1,11 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Github from "./Github";
-import Techstack from "./Techstack";
-import Coding from "./Coding";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
+
+import ProgrammingLanguages from "./ProgrammingLanguages";
+import Frameworks from "./Frameworks";
+import Databases from "./Databases";
+import Linuxdistros from "./Linuxdistros";
+import DevOps from "./DevOps";
 
 function About() {
   return (
@@ -26,21 +28,31 @@ function About() {
             <Aboutcard />
           </Col>
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
-
-        <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+        Languages <strong className="purple">I Command </strong>
         </h1>
-        <Toolstack />
+        <ProgrammingLanguages />
 
         <h1 className="project-heading">
-          <strong className="purple">Coding</strong> Competitions
+        Frameworks <strong className="purple">I Master</strong>
         </h1>
-        <Coding />
+        <Frameworks />
+
+        <h1 className="project-heading">
+        Database Systems <strong className="purple">I Depend On </strong>
+        </h1>
+        <Databases />
+
+        <h1 className="project-heading">
+        Linux Distros  <strong className="purple">I Navigate</strong>
+        </h1>
+        <Linuxdistros />
+
+        <h1 className="project-heading">
+        DevOps Skills <strong className="purple">I Excel In</strong>
+        </h1>
+        <DevOps />
 
         <Github />
       </Container>
