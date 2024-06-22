@@ -4,10 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^6.4.5",
@@ -16,6 +15,7 @@
     "axios": "^1.6.8",
     "bootstrap": "^5.3.3",
     "devicon-react-svg": "^0.2.4",
+    "next": "^14.2.4",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
