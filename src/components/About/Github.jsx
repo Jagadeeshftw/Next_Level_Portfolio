@@ -4,8 +4,8 @@ import { Row, Col } from "react-bootstrap";
 
 function Github() {
   const themeInput = {
-    light: ['#f0f0f0', '#c4edde', '#7ac7c4', '#f73859', '#384259'],
-    dark: ['white', '#A0A0A0', '#808080', '#606060', '#404040'],
+    light: ["#f0f0f0", "#c4edde", "#7ac7c4", "#f73859", "#384259"],
+    dark: ["white", "#A0A0A0", "#808080", "#606060", "#404040"],
   };
 
   return (
@@ -17,7 +17,7 @@ function Github() {
           </h1>
           <GitHubCalendar
             username="jagadeeshftw"
-            blockSize={19}
+            blockSize={16}
             blockMargin={5}
             colorScheme={"dark"}
             theme={themeInput}
