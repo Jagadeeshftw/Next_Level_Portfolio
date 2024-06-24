@@ -5,7 +5,7 @@ import { Row, Col } from "react-bootstrap";
 function Github() {
   const themeInput = {
     light: ["#f0f0f0", "#c4edde", "#7ac7c4", "#f73859", "#384259"],
-    dark: ["white", "#A0A0A0", "#808080", "#606060", "#404040"],
+    dark: ["#FFFFFF", "#6B7280", "#1F2937", "#111827", "#030712"],
   };
 
   return (
