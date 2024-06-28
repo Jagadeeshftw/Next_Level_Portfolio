@@ -7,6 +7,7 @@ import Image from "next/image";
 import MoonImg from "../public/moon2.png";
 import Footer from "@/components/Footer";
 import "./globals.css";
+import "../utils/polyfills";
 
 const inter = Inter({ subsets: ["latin"] });
 
