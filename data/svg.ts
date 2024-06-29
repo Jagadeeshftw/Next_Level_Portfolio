@@ -8,6 +8,8 @@ import Typescript from "../Assets/svg/Typescript.svg";
 import Scss from "../Assets/svg/scss.svg";
 import Bootstrap from "../Assets/svg/Bootstrap.svg";
 import Vite from "../Assets/svg/Vite.svg";
+import Tailwind from "../Assets/svg/Tailwind.svg";
+import Framer from "../Assets/svg/Framer.svg";
 const svg = {
   p5Js: p5Js,
   nextJs: Nextjs,
@@ -19,6 +21,8 @@ const svg = {
   scss: Scss,
   bootstrap: Bootstrap,
   vite: Vite,
+  tailwind: Tailwind,
+  framer: Framer,
 };
 
 export default svg;
