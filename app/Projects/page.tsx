@@ -16,7 +16,7 @@ function Projects() {
           Here are some of the innovative projects I’ve recently brought to
           life.
         </p>
-        <div className=" grid grid-cols-2">
+        <div className=" grid md:grid-cols-2 grid-cols-1">
           {projects.map((proj) => (
             <CardContainer className="inter-var" key={proj.Id}>
               <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-transparent tech-icons sm:w-5/6 h-full rounded-xl p-6 border  ">
