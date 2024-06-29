@@ -3,7 +3,10 @@ import Home2 from "@/components/Home";
 
 export default function Home() {
   return (
-    <div className="home-section" id="home">
+    <div
+      className="home-section bg-gradient-to-bl from-gradient-start to-gradient-end md:bg-none"
+      id="home"
+    >
       <div className="home-content container mx-auto">
         <div className="flex flex-col md:flex-row">
           <div className="home-header md:w-9/12 mx-auto text-center md:text-left">
