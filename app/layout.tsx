@@ -12,7 +12,7 @@ import "../utils/polyfills";
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Jagadeesh | Portfolio",
-  description: "Jagadeesh portfolio",
+  description: "Jagadeesh's portfolio",
 };
 
 export default function RootLayout({
