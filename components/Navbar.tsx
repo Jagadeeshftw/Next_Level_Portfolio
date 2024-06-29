@@ -47,7 +47,7 @@ function Navbar({ className }: { className?: string }) {
           item="Projects"
           icon={GrProjects}
         >
-          <div className="  text-sm grid sm:grid-cols-2 grid-cols-1 sm:grid-rows-2 gap-10 p-1">
+          <div className="text-sm grid sm:grid-cols-2 grid-cols-1 sm:grid-rows-2 gap-10 p-1 h-full object-cover overflow-y-auto max-h-96">
             {Projects.map((project) => (
               <ProductItem
                 title={project.Title}
