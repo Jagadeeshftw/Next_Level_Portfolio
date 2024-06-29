@@ -2,10 +2,66 @@ import svg from "./svg";
 import reverseSnake from "../Assets/Projects/reverse_snake.png";
 import pathVisualization from "../Assets/Projects/path-visual.png";
 import timeQuest from "../Assets/Projects/time_quest.png";
+import portfolio from "../Assets/Projects/Portfolio.png";
 
 const Projects = [
   {
     Id: 1,
+    Title: "Portfolio",
+    Description:
+      "Next Level Portfolio is a modern web portfolio crafted using Next.js, featuring a sleek design and interactive elements to highlight professional skills and showcase various projects.",
+    oneLineDescription:
+      "A stylish and interactive portfolio website built with Next.js showcasing skills and projects.",
+    Icon: [
+      {
+        id: 1,
+        name: "Nextjs",
+        purpose: "Superset of React",
+        image: svg.nextJs,
+      },
+      {
+        id: 2,
+        name: "Typescript",
+        purpose: "Superset of Javascript",
+        image: svg.typeScript,
+      },
+      {
+        id: 3,
+        name: "Tailwind CSS",
+        purpose: "Utility-first CSS framework",
+        image: svg.tailwind,
+      },
+      {
+        id: 4,
+        name: "Javascript",
+        purpose: "Programming language",
+        image: svg.javascript,
+      },
+      {
+        id: 5,
+        name: "Framer Motion",
+        purpose: "Production-ready motion library",
+        image: svg.framer,
+      },
+      {
+        id: 6,
+        name: "Html",
+        purpose: "Markup language",
+        image: svg.html,
+      },
+      {
+        id: 7,
+        name: "css",
+        purpose: "CSS preprocessor",
+        image: svg.css,
+      },
+    ],
+    Image: portfolio,
+    DemoLink: "https://jagadeeshftw.netlify.app/",
+    ProjectLink: "https://github.com/Jagadeeshftw/Next_Level_Portfolio",
+  },
+  {
+    Id: 2,
     Title: "Path-Visualization",
     Description:
       "Finds a path depending on the algorithm from the starting point to an ending point. A path can be blocked by the user using walls. Generate a maze (Randomized DFS) and apply path-finding algorithms to the maze.",
@@ -41,7 +97,7 @@ const Projects = [
     ProjectLink: "https://github.com/Jagadeeshftw/PathVisualization",
   },
   {
-    Id: 2,
+    Id: 3,
     Title: "Blockade",
     Description:
       "Its a classic Snake game where you control the food instead of the snake. Utilizing Ts and p5.js, the game features a snake that aggressively follows a shortest path algorithm to reach the food while avoiding obstacles.",
@@ -84,7 +140,7 @@ const Projects = [
     ProjectLink: "https://github.com/Jagadeeshftw/Reverse_snake",
   },
   {
-    Id: 3,
+    Id: 4,
     Title: "Ultimate Time Quest",
     Description:
       "It's an exciting and interactive web application designed to challenge your time management skills and precision. Dive into a series of captivating time-based challenges and race against the clock to achieve the highest score",
@@ -123,7 +179,7 @@ const Projects = [
       },
     ],
     Image: timeQuest,
-    DemoLink: "timequest.netlify.app/#",
+    DemoLink: "https://timequest.netlify.app/#",
     ProjectLink: "https://github.com/Jagadeeshftw/Ultimate_Time_Quest",
   },
 ];
