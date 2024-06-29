@@ -21,6 +21,8 @@ const config: Config = {
     },
     extend: {
       colors: {
+        "gradient-start": "rgba(17, 16, 16, 0.582)",
+        "gradient-end": "rgba(12, 8, 24, 0.904)",
         gray: {
           DEFAULT: "#000",
           //1000: "rgba(34, 34, 34, 0.5)",
