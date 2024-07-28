@@ -1,6 +1,6 @@
 # 🚀 Next Level Portfolio
 
-Welcome to my portfolio project! This dynamic and responsive portfolio is built using **Next.js** and **Tailwind CSS**, designed to showcase my skills, projects, and achievements in a professional and interactive manner. Take a look around and explore my work!
+Welcome to my portfolio project! This dynamic and responsive portfolio is built using **Next.js** and **Tailwind CSS**, designed to showcase my skills, projects, and achievements professionally and interactively. Take a look around and explore my work!
 
 ## 🌟 Features
 
