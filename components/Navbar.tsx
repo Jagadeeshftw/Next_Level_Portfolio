@@ -23,6 +23,7 @@ function Navbar({ className }: { className?: string }) {
           active={active}
           item="Home"
           icon={HiHomeModern}
+          noChildren={true}
         >
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/intro">Introduction</HoveredLink>
@@ -35,6 +36,7 @@ function Navbar({ className }: { className?: string }) {
           active={active}
           item="About"
           icon={GrUserWorker}
+          noChildren={true}
         >
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/hobby">Hobby</HoveredLink>
@@ -46,6 +48,7 @@ function Navbar({ className }: { className?: string }) {
           active={active}
           item="Projects"
           icon={GrProjects}
+          noChildren={false}
         >
           <div className="text-sm grid sm:grid-cols-2 grid-cols-1 sm:grid-rows-2 gap-10 p-1 h-full object-cover overflow-y-auto max-h-96">
             {Projects.map((project) => (
@@ -64,6 +67,7 @@ function Navbar({ className }: { className?: string }) {
           active={active}
           item="Resume"
           icon={GrDocumentUser}
+          noChildren={true}
         >
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/resume">Resume</HoveredLink>
