@@ -10,6 +10,11 @@ import Bootstrap from "../Assets/svg/Bootstrap.svg";
 import Vite from "../Assets/svg/Vite.svg";
 import Tailwind from "../Assets/svg/Tailwind.svg";
 import Framer from "../Assets/svg/Framer.svg";
+import Polygon from "../Assets/svg/Polygon.svg"
+import Solidty from "../Assets/svg/Solidity.svg"
+import Ipfs from "../Assets/svg/Ipfs.svg"
+import Prisma from "../Assets/svg/Prisma.svg"
+import Ethereum from "../Assets/svg/Ethereum.svg"
 const svg = {
   p5Js: p5Js,
   nextJs: Nextjs,
@@ -23,6 +28,11 @@ const svg = {
   vite: Vite,
   tailwind: Tailwind,
   framer: Framer,
+  polygon: Polygon,
+  solidity: Solidty,
+  ipfs: Ipfs,
+  prisma: Prisma,
+  ethereum: Ethereum,
 };
 
 export default svg;
