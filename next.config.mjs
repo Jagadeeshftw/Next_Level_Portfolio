@@ -27,6 +27,11 @@ const nextConfig = {
     });
     return config;
   },
+  images: {
+    domains: [
+      "api.microlink.io", // Microlink Image Preview
+    ],
+  },
 };
 
 export default nextConfig;
