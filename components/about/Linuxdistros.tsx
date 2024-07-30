@@ -25,14 +25,6 @@ function Linuxdistros() {
         <SiAlpinelinux className="w-2/3 h-2/3 p-8" />
         <p className="text-white font-bold text-xl mt-4">Alpine</p>
       </GlareCard>
-      <GlareCard className="flex flex-col items-center justify-center">
-        <FaDebian className="w-2/3 h-2/3 p-8" />
-        <p className="text-white font-bold text-xl mt-4">Debian</p>
-      </GlareCard>
-      <GlareCard className="flex flex-col items-center justify-center">
-        <FaFedora className="w-2/3 h-2/3 p-8" />
-        <p className="text-white font-bold text-xl mt-4">Fedora</p>
-      </GlareCard>
     </div>
   );
 }
