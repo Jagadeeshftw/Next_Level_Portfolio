@@ -5,7 +5,6 @@ import Navbar from "@/components/Navbar";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import Image from "next/image";
 import MoonImg from "../public/moon2.png";
-import Footer from "@/components/Footer";
 import "./globals.css";
 import "../utils/polyfills";
 
@@ -37,7 +36,6 @@ export default function RootLayout({
           </div>
           <Navbar />
           {children}
-          <Footer />
         </ThemeProvider>
       </body>
     </html>
