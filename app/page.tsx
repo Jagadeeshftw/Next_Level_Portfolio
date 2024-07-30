@@ -1,7 +1,6 @@
 import Type from "@/components/ui/type-writer";
 import Home2 from "@/components/Home";
 import { LinkPreview } from "@/components/ui/link-preview";
-import BentoGrid from "@/components/BentoGrid";
 import Footer from "@/components/Footer";
 
 export default function Home() {

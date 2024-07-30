@@ -6,7 +6,6 @@ import Frameworks from "../../components/about/Frameworks";
 import Databases from "../../components/about/Databases";
 import Linuxdistros from "../../components/about/Linuxdistros";
 import DevOps from "../../components/about/DevOps";
-import BentoGrid from "@/components/BentoGrid";
 import Footer from "@/components/Footer";
 import MyIconCloud from "@/components/MyIconCloud";
 
