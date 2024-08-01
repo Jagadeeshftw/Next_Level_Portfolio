@@ -18,7 +18,7 @@ function ResumeNew() {
 
   return (
     <>
-      <div className="container mx-auto py-12 resume-section">
+      <div className="mx-auto py-12 resume-section">
         <div className="flex justify-center my-4">
           <Button
             borderRadius="1.75rem"
