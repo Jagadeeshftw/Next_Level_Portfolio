@@ -19,6 +19,7 @@ Welcome to my portfolio project! This dynamic and responsive portfolio is built 
 
   - Next.js
   - Framer Motion
+  - Aceternity UI
   - Javascript
   - Typescript
 
